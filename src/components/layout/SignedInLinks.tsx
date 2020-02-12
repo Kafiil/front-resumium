@@ -1,7 +1,6 @@
-import React from "react";
-
-function SignedInLinks() {
-  return <div></div>;
-}
+const SignedInLinks = [
+  { icon: "user", text: "Edit User" },
+  { icon: "logout", text: "Logout" }
+];
 
 export default SignedInLinks;

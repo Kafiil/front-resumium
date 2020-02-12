@@ -1,13 +1,12 @@
 import React from "react";
-import { Button } from "antd";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import MyLayout from "./components/layout/MyLayout";
 
 const App = () => (
-  <div className="App">
-    <Button type="primary" icon="book">
-      Make CV Better
-    </Button>
-  </div>
+  <BrowserRouter>
+    <MyLayout></MyLayout>
+  </BrowserRouter>
 );
 
 export default App;
